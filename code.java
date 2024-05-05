@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * code
  */
@@ -5,6 +7,13 @@ public class code {
 
     public static void main(String[] args)
     {
-        System.out.println("Hello World");
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        scan.close();
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
     }
 }
